@@ -22,7 +22,7 @@ class Artist
   end
   
   def genres 
-    songs.map {|songs| songs.artist}
+    songs.map {|songs| songs.genre}
   end
   
 end
