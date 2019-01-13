@@ -13,7 +13,8 @@ class Genre
   end
   
   def songs 
-    Spngs.all.select do |song| 
+    Songs.all.select do |song| 
+      song.genre == self
   end
   
 end
