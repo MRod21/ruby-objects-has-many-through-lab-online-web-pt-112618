@@ -13,7 +13,7 @@ class Genre
   end
   
   def songs 
-    Spngs.all.select do 
+    Spngs.all.select do |song| 
   end
   
 end
