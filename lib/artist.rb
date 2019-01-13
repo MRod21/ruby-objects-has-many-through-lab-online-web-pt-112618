@@ -21,5 +21,8 @@ class Artist
     end
   end
   
+  def genres 
+    songs.each
+  
 end
 
