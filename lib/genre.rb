@@ -12,4 +12,8 @@ class Genre
     @@all
   end
   
+  def songs 
+    Spngs.all.o
+  end
+  
 end
