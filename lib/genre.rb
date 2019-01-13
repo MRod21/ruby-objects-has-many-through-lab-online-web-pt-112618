@@ -20,4 +20,5 @@ class Genre
   
   def artists
     self
+  end
 end
